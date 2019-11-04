@@ -1,0 +1,86 @@
+//************************************************************
+//函数数量、字符数量不限制。定义函数的参数最大支持20个.
+//函数格式不可错误,一个错误,全局失败.
+//调用格式：  函数名,参数,参数,,,,,,,,,,,
+//************************************************************
+function 天盾安全到让你放心(){ 
+return '不仅安全，还更省心';
+}
+
+function 返回一个文本(){ 
+return 'QQ51405247';
+}
+
+function 返回个文本(){ 
+return 'hello';
+}
+
+function XGdun(a,b,c,d){
+ret = eval(c)*eval(b)
+ret = ret + eval(a)*eval(b) - 2254
+ret = ret + eval(c)+eval(a)
+ret = ret * eval(d)-eval(b)
+ret = ret + eval(d)*eval(a)
+ret = ret + eval(d)*eval(a) + 127490
+ret = ret + eval(d)*eval(c)
+ret = ret * eval(d) + 142221
+ret = ret << eval(d)
+ret = ret | 127490
+ret = ret ^ 7788
+ret = ret - 88
+ret = ret ^ a
+ret = ret / 252
+return ret;
+}
+
+function 文本相加(a,b){
+return a+b;
+}
+
+
+function 整数相加(a,b,c){
+return eval(a) + eval(b) + eval(c);
+}
+
+function 整数相乘(a,b){
+return a*b ;
+}
+
+function 整数相减(a,b){
+return a-b ;
+}
+
+function 整数相除(a,b){
+return a/b ;
+}
+
+function 获取服务器时间()  { 
+        var now = new Date();
+       
+        var year = now.getFullYear();       //年
+        var month = now.getMonth() + 1;     //月
+        var day = now.getDate();            //日
+       
+        var hh = now.getHours();            //时
+        var mm = now.getMinutes();          //分
+       
+        var clock = year + "-";
+       
+        if(month < 10)
+            clock += "0";
+       
+        clock += month + "-";
+       
+        if(day < 10)
+            clock += "0";
+           
+        clock += day + " ";
+       
+        if(hh < 10)
+            clock += "0";
+           
+        clock += hh + ":";
+        if (mm < 10) clock += '0'; 
+        clock += mm; 
+        return(clock+1); 
+    }
